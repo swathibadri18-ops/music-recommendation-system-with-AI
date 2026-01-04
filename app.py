@@ -33,8 +33,9 @@ h1, h2, h3 { color: #9b59b6; }
 # -----------------------------
 # Spotify setup
 # -----------------------------
-CLIENT_ID = "d76a78cc7dee4eb7927f0e2b7871e2b5"
-CLIENT_SECRET = "cca731de5ed84f4b8e5f9681b96148cd"
+CLIENT_ID = st.secrets["SPOTIFY_CLIENT_ID"]
+CLIENT_SECRET = st.secrets["SPOTIFY_CLIENT_SECRET"]
+
 sp = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(
     client_id=CLIENT_ID, client_secret=CLIENT_SECRET
 ))
@@ -211,4 +212,5 @@ with tab2:
                     except:
                         st.caption("⚠️ Error retrieving Spotify link")
                     st.markdown("</div>", unsafe_allow_html=True)
+
 
