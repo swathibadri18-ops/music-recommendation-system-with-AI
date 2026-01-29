@@ -101,11 +101,3 @@ The model uses a subset of **Spotify’s Million Song Dataset**, containing meta
 
 **Swathi Badrinarayanan**
 📬 Connect on [LinkedIn](https://www.linkedin.com/in/swathi-badrinarayanan/) | ✉️ [Email Me](swathi.badri18@gmail.com)
-
-
-This project is licensed under the **MIT License** – feel free to use and modify it.
-
----
-
-Would you like me to tailor the README further for **Streamlit Cloud deployment** (with proper `.streamlit/config.toml` and instructions)?
-That’ll make it instantly hostable online.
